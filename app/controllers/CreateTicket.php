@@ -6,6 +6,7 @@ class CreateTicket extends Controller{
         $this-> view('templates/header',$data);
         $this-> view('createTicket/index');
         $this-> view('templates/footer');
+        $this-> view();
     }
 
     public function send()
