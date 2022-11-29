@@ -1,4 +1,4 @@
-<div class="container w-75 mt-5 rounded py-4" style="background-color:#FF8E0A; height: fit-content;">            
+<div class="container w-75 mt-5 rounded py-4" style="background-color:#FF8E0A; height: fit-content;">         
     <h2 class="text-light mb-0 text-center">Create New Ticket</h2>
     <p class="fs-7 text-center text-light py-0">Please fill in the form below to open a new ticket.</p>
     <div class="container mt-4" >
@@ -46,7 +46,7 @@
             </div>            
             <div class="button text-center mt-4 mb-3">            
                 <button type="button" class="btn btn-secondary btn-sm text-light shadow" data-bs-toggle="modal" data-bs-target="#cancelModal">Cancel</button>   
-                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click" id="create">Create Ticket</button>
+                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click" >Create Ticket</button>
             </div>
         </form>
     </div>
@@ -70,31 +70,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  // alert email,fullname,topic,subject,details
-  var email = $("#email").val();
-  var fullname = $("#fullname").val();
-  var topic = $("#topic").val();
-  var subject = $("#subject").val();
-  var details = $("#details").val();
-
-  if(email == '' || fullname == '' || topic != '' || subject != '' || details =='' ){
-    swal({
-      title: "Good job!",
-      text: "You clicked the button!",
-      icon: "success",
-      button: "Aww yiss!",
-    });
-  } else{
-    swal({
-      title: "Fields Empty!!!",
-      text: "Please  Check the missing field!!",
-      icon: "danger",
-      button: "OK",
-    });
-  }
-</script>
 <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {
