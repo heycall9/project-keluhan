@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<!-- Modal Cancle Button -->
+<!-- Modal Cancel Button -->
 <div class="modal fade" id="cancelModal" tabindex="-1" aria-labelledby="judulmodal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
