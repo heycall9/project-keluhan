@@ -51,6 +51,8 @@
     </div>
 </div>
 
+<!-- kontoll -->
+
 <!-- Modal Cancle Button -->
 <div class="modal fade" id="cancelModal" tabindex="-1" aria-labelledby="judulmodal" aria-hidden="true">
   <div class="modal-dialog">
