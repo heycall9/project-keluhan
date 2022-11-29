@@ -12,7 +12,7 @@
         <img src="<?= BASEURL; ?>/img/logo-header.png" alt="logo-header" width="180" height="70" class="mt-3 mb-3 text-center">
     </div>
     <nav class="navbar navbar-expand-lg shadow" style="background-color: #FF8E0A ;" >
-    <div class="container" >
+        <div class="container" >
             <a class="navbar-brand text-white" href="<?= BASEURL; ?>">HALOFILKOM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

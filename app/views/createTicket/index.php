@@ -28,7 +28,8 @@
                 <div class="invalid-feedback">
                   Please select a valid topic.
                 </div>
-            </div>            
+            </div>        
+                
             <div class="mb-2 col-xl-7">
                 <label for="subject" class="form-label mb-1 text-light">Subject</label>
                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Batal Tambah" required>
@@ -45,7 +46,7 @@
             </div>            
             <div class="button text-center mt-4 mb-3">            
                 <button type="button" class="btn btn-secondary btn-sm text-light shadow" data-bs-toggle="modal" data-bs-target="#cancelModal">Cancel</button>   
-                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click">Send</button>
+                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click" id="create">Create Ticket</button>
             </div>
         </form>
     </div>
@@ -70,6 +71,30 @@
   </div>
 </div>
 
+<script>
+  // alert email,fullname,topic,subject,details
+  var email = $("#email").val();
+  var fullname = $("#fullname").val();
+  var topic = $("#topic").val();
+  var subject = $("#subject").val();
+  var details = $("#details").val();
+
+  if(email == '' || fullname == '' || topic != '' || subject != '' || details =='' ){
+    swal({
+      title: "Good job!",
+      text: "You clicked the button!",
+      icon: "success",
+      button: "Aww yiss!",
+    });
+  } else{
+    swal({
+      title: "Fields Empty!!!",
+      text: "Please  Check the missing field!!",
+      icon: "danger",
+      button: "OK",
+    });
+  }
+</script>
 <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {
