@@ -1,6 +1,6 @@
 <div class="container">
     <h1 class="mt-4">About Us</h1>
-    <div class="w-75 row">
+    <div class="w-75">
         <img src="<?= BASEURL; ?>/img/logo.php" alt="logo" width="400" class="rounded shadow img-fluid ">
         <p class="mt-2" style="text-align: justify;">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro laudantium aliquam qui impedit maxime totam, molestias itaque illo, recusandae alias fugiat minima amet fugit nostrum architecto? Distinctio explicabo blanditiis laboriosam.

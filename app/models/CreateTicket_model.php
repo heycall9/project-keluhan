@@ -1,7 +1,6 @@
 <?php 
 
 class CreateTicket_model {
-    private $table = "ticket";
     private $db;
 
     public function __construct()

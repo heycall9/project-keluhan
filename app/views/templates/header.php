@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="text-center">
-        <img src="<?= BASEURL; ?>/img/logo-header.png" alt="logo-header" width="180" height="70" class="mt-3 mb-3 text-center">
+        <img src="<?= BASEURL; ?>/img/logo-header.png" alt="logo-header" width="180" height="70" class="mt-3 mb-3 text-center img-fluid">
     </div>
     <nav class="navbar navbar-expand-lg shadow" style="background-color: #FF8E0A ;" >
         <div class="container" >
