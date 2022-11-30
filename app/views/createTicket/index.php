@@ -46,7 +46,7 @@
             </div>            
             <div class="button text-center mt-4 mb-3">            
                 <button type="button" class="btn btn-secondary btn-sm text-light shadow" data-bs-toggle="modal" data-bs-target="#cancelModal">Cancel</button>   
-                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click" >Create Ticket</button>
+                <button type="submit" class="btn btn-warning btn-sm text-light shadow" name="click" id="create">Create Ticket</button>
             </div>
         </form>
     </div>
@@ -70,6 +70,22 @@
     </div>
   </div>
 </div>
+
+<!-- Alert Success -->
+<script>
+    const tombol = document.querySelector('#create');
+    tombol.addEventListener('click', function(){
+        var email = $('#email').val();
+        var fullname = $('#fullname').val();
+        var topic = $('#topic').val();
+        var subject = $('#subject').val();
+        var details = $('details').val();
+        if(email != "" && fullname != "" && topic != "" && subject != "" && details != ""){
+          alert("Ticket Created!!");
+        }
+    });
+</script>
+
 <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {

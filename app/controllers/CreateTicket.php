@@ -11,6 +11,7 @@ class CreateTicket extends Controller{
     public function send()
     {
         if($this->model('CreateTicket_model')->createTicket($_POST) > 0){
+            
             header('Location: '. BASEURL .'/createTicket');
             exit;
         }
